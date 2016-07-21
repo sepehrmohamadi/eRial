@@ -1,3 +1,3 @@
 # eRial
 
-This is eRial Contract repository.
+This is Official eRial Contract repository.
