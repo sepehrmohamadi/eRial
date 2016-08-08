@@ -82,7 +82,7 @@ contract token {
     }
 }
 
-contract MyAdvancedToken is owned, token {
+contract CoinexToken is owned, token {
 
     uint256 public totalSupply;
 
@@ -92,7 +92,7 @@ contract MyAdvancedToken is owned, token {
     event FrozenFunds(address target, bool frozen);
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
-    function MyAdvancedToken(
+    function CoinexToken(
         uint256 initialSupply,
         string tokenName,
         uint8 decimalUnits,
@@ -138,5 +138,4 @@ contract MyAdvancedToken is owned, token {
         frozenAccount[target] = freeze;
         FrozenFunds(target, freeze);
     }
-
 }
