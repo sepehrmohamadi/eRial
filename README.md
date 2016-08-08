@@ -2,7 +2,7 @@
 
 This is Official eRial.org Contract repository.
 
-eRial.org Contract address is: 0xf53E7f01371C6fc0E1c821d3c3C8b30Be366BB6E
+eRial.org Contract address is: 0x3D2F50874591d0EeAa811fb58Cc4716758280885
 
 Files Decription:
 
